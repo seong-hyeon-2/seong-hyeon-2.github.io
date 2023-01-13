@@ -1,6 +1,6 @@
 # Titanic - Machine Learning from Disaster
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled.png)
+![Untitled](/Users/seong_h/Desktop/Export-ddc6f366-2da3-4703-8ff4-d98fc58ed160/Titanic - Machine Learning from Disaster 51a12c0b046b493898d4c67b87a40d21/Untitled.png)
 
 [https://www.kaggle.com/competitions/titanic/overview](https://www.kaggle.com/competitions/titanic/overview)
 
@@ -63,7 +63,7 @@ decoding(디코딩)
 
 → 분류와 회귀 문제에서 모두 사용 가능하다. 분류에서는 소프트 마진(마진이 클수록 좋기 때문), 회귀에서는 하드 마진(마진이 좁을수록 데이터들을 대표할 수 있는 회귀선을 잘 만들 수 있기 때문)을 사용하는 것이 좋다. 
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%201.png)
+![Untitled](/Users/seong_h/Desktop/Export-ddc6f366-2da3-4703-8ff4-d98fc58ed160/Titanic - Machine Learning from Disaster 51a12c0b046b493898d4c67b87a40d21/Untitled 1.png)
 
 그럼 나는 어떤 예측 모델을 이용해서 이 문제를 해결할 수 있을까?
 
