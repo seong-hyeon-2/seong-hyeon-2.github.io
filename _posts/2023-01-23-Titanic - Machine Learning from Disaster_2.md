@@ -5,6 +5,8 @@ title:  "모각소 - Kaggle Titanic - 완성본"
 
 # Titanic - Machine Learning from Disaster
 
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled.png)
+
 [https://www.kaggle.com/competitions/titanic/overview](https://www.kaggle.com/competitions/titanic/overview)
 
 ## 문제
@@ -169,11 +171,11 @@ sns.barplot(x='Pclass', y='Survived', hue='Sex',data=train_df)
 
 또한 female의 생존율도 확연히 높다. 
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%201.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%201.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%202.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%202.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%203.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%203.png)
 
 ```python
 # 각 특징에 따른 생존율
@@ -274,13 +276,13 @@ Name: Embarked, dtype: float64
 
 선착장 S에서 제일 많이 탑승하였고 C에서 탑승한 사람이 생존 확률이 높음
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%204.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%204.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%205.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%205.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%206.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%206.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%207.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%207.png)
 
 시각화를 통해 각 feature들의 생존율을 살펴보았다. 
 
@@ -344,7 +346,7 @@ train_df[['Title', 'Survived']].groupby(['Title'], as_index=False).mean()
 
 ### SEX
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%208.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%208.png)
 
 ```python
 # Sex 특징 처리. 이 또한 숫자로 변형한다.
@@ -390,9 +392,9 @@ Age 범주 파악 결과
 
 이것을 또 간략하게 숫자로 바꾸어주겠다.
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%209.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%209.png)
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2010.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2010.png)
 
 ```python
 #  나이 범주를 숫자로 바꿔주기
@@ -431,7 +433,7 @@ for dataset in train_and_test:
     dataset['Embarked'] = dataset['Embarked'].map( {'S': 0, 'C': 1, 'Q': 2} ).astype(int)
 ```
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2011.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2011.png)
 
 ### Fare
 
@@ -515,7 +517,7 @@ coeff_df["Correlation"] = pd.Series(logreg.coef_[0])
 coeff_df.sort_values(by='Correlation', ascending=False)
 ```
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2012.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2012.png)
 
 ### **SVC(Support Vector Machines)**
 
@@ -598,7 +600,7 @@ models.sort_values(by='Score', ascending=False)
 
 ```
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2013.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2013.png)
 
 Random forest와 Decision Tree는 overfitting 가능성이 있을 것이라 추측이 들어 
 
@@ -655,7 +657,7 @@ decoding(디코딩)
 
 → 분류와 회귀 문제에서 모두 사용 가능하다. 분류에서는 소프트 마진(마진이 클수록 좋기 때문), 회귀에서는 하드 마진(마진이 좁을수록 데이터들을 대표할 수 있는 회귀선을 잘 만들 수 있기 때문)을 사용하는 것이 좋다. 
 
-![Untitled](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2014.png)
+![Untitled](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/Untitled%2014.png)
 
 그럼 나는 어떤 예측 모델을 이용해서 이 문제를 해결할 수 있을까?
 
@@ -667,6 +669,6 @@ decoding(디코딩)
 
 Logistic regression은 종속변수 Y가 범주형이면서 0 OR 1의 값을 가질 때(즉,Binary한 데이터를 처리할 때) 사용하는 것이 유용하다. 선형회귀는 이 같은 경우에서는 fitting하기 어려움 
 
-![스크린샷 2023-01-18 00.19.37.png](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-18_00.19.37.png)
+![스크린샷 2023-01-18 00.19.37.png](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-18_00.19.37.png)
 
-[gender_submission.csv](Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/gender_submission.csv)
+[gender_submission.csv](../../../Desktop/Export-384e97c9-43aa-46d7-a6da-9f1a7bf9cd47/Titanic%20-%20Machine%20Learning%20from%20Disaster%2051a12c0b046b493898d4c67b87a40d21/gender_submission.csv)
