@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "모각소 - Kaggle Titanic"
+title:  "모각소 1주차 - Kaggle Titanic"
 ---
 
 
