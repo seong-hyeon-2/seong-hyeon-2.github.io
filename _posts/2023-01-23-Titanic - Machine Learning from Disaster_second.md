@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "모각소 - Kaggle Titanic - 완성본"
+title:  "모각소 2주차 - Kaggle Titanic - 완성본"
 ---
 
 # Titanic - Machine Learning from Disaster
